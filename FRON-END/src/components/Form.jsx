@@ -37,7 +37,7 @@ return(
              <hr />
              {error.email && <p>{error.email}</p>}
         <label htmlFor="password">password</label>
-        <input type="text" name ="password" value={userData.password}onChange={handleOnchange}/>
+        <input type="password" name ="password" value={userData.password}onChange={handleOnchange}/>
         <br />
         {error.password&&<p>{error.password}</p>}
         <hr />

@@ -8,7 +8,7 @@ const getCharById = async (req, res) => {
 
             if(!data.name)throw new Error(`ID:${id} Not found`)
                 const character = {
-                    id:data.id,
+                    id:id,
                     name:data.name,
                     species:data.species,
                     origin:data.origin,
